@@ -1,18 +1,25 @@
 
 body {
   color: white;
-width: 100%;
+font-family: Helvetica;
 text-align: center;
+background-color: black;
+
 }
 .body {
 
 }
-.logo {
+.container {
+width: 960px;
+margin: 0 auto;
+}
 
+header .container {
   display: flex;
-height: 1.2rem;
-width: 1.2rem;
-padding-right: 1rem;
+align-items: center;
+padding: 12px 0 12px 0.5em;
+}
+
 }
 header {
   height: 6rem;
@@ -45,6 +52,7 @@ padding-bottom: 1.6rem;
 padding-top: 1.6rem;
 flex-basis: 25rem;
 text-align:left;
+padding-right: 1.5rem;
   }
 .arrivalcontent p {
   padding-bottom: 2rem;
@@ -60,7 +68,7 @@ text-align:left;
   height: 2.5rem;
   align-items: center;
 }
-.menu span {
-  display: inline-block;
-  flex-grow: 1;
+.menu .container {
+  justify-content: space-between;
+  display: flex;
 }
